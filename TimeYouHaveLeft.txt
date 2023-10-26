@@ -1,0 +1,16 @@
+# 🚨 Don't change the code below 👇
+age = input("What is your current age?")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+age = int(age)
+agem = (age * 12)
+agew = (age * 52)
+aged = (age * 365)
+lifem = (90 * 12) - agem
+lifew = (90 * 52) - agew
+lifed = (90 * 365) - aged
+
+print(f"You have {lifed} days, {lifew} weeks, and {lifem} months left")
+
+

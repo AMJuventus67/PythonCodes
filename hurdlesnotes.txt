@@ -1,0 +1,37 @@
+def long_jump():
+    if wall_on_right  == True:
+        move()
+    elif wall_in_front == True:
+        turn_left()
+        move()
+    elif wall_on_right() == False:
+        while wall_on_right == False:
+            move()
+    else:
+        normal_jump()
+
+
+
+while front_is_clear == True:
+        move()
+
+
+
+def hurdle_jump():
+    move()
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+def normal_jump():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+    

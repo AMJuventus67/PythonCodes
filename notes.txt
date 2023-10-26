@@ -1,0 +1,62 @@
+notes: (going back and forth code)
+
+ if wall_in_front() == True:
+        turn_around()
+        move()
+    else:
+        move()
+
+------------------------------------------------
+def maze1():
+    turn_right()
+    while front_is_clear() == True:
+        move()
+        if
+    if front_is_clear() !=True:
+        turn_left()
+        if front_is_clear() !=True:
+            turn_around()
+            while front_is_clear() == True:
+                move()
+        else:
+            move()
+    else:
+        move()
+        
+        while wall_in_front() != True:
+            move()
+        
+
+    
+    
+def maze():
+    while front_is_clear() == True:
+        move()
+        while wall_in_front() == True:
+            if wall_on_right() == True:
+                turn_right()
+                if wall_in_front() == True:
+                    turn_left()
+                    move()
+                else:
+                    move()
+            
+            else:
+                turn_around()
+                move
+           
+            
+    move()
+            
+
+while at_goal() !=True:
+    maze1()
+
+
+
+
+
+
+1. turn right
+if the front is clear then move
+if there's a wall then turn left and move
